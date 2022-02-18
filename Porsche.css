@@ -1,0 +1,118 @@
+/*頁尾*/
+#footer {
+	background-color: black;
+	color: white;
+	padding: 40px;
+	margin-top: 50px;
+}
+
+/*汽車展示間-1的方格*/
+.box {
+	border-radius: 30px;
+	background-color: white;
+	height: 900px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid #DDDD;
+}
+
+.box_buy {
+	border-radius: 30px;
+	background-color: white;
+	height: 1100px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid #DDDD;
+}
+
+.box_reservation {
+	border-radius: 30px;
+	background-color: white;
+	height: 900px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid #DDDD;
+}
+
+/*車型比較方格*/
+.box1 {
+	border-radius: 30px;
+	background-color: white;
+	height: 800px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.fixed {
+	position: fixed;
+	left: 750px;
+}
+
+.fixed_buy {
+	border-radius: 30px;
+	background-color: white;
+	height: 480px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid #DDDD;
+	position: fixed;
+	left: 45%;
+}
+
+.square {
+	height: 30px;
+	width: 30px;
+	border: 0.5px solid black;
+}
+
+.red {
+	background-color: red;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+body {
+	font-family: Microsoft JhengHei;
+}
+
+.other-way-login {
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+.other-way-login .line {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #DDDD;
+}
+.other-way-login .txt {
+    color: black;
+    vertical-align: middle;
+    vertical-align: -20%;
+    margin: 0 30px;
+}
+
+.carimg {
+	height: 180px;
+}
+
+.car_buy_img {
+	height: 100px;
+	margin-right: 8px;
+}
